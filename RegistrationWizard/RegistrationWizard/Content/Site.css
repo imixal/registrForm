@@ -1,0 +1,79 @@
+﻿p, label, button,input,h2{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+}
+h2{
+    text-align:center;
+    font-size:25px;
+    margin-bottom:20px;
+}
+body{
+    background-image: url("/Image/grid.png");
+}
+.btn {
+    float:right;
+    margin-left:10px;
+}
+html, body {
+    height: 100%;
+    overflow:hidden;
+}
+#registration{
+    margin: 20% auto;
+    width: 400px;
+    padding: 25px 50px;
+    padding-bottom:75px;
+    background:#FFF;
+
+}
+#main-info,#type-info,#address-info{
+    margin: 10% auto;
+    width: 400px;
+    padding: 25px 50px;
+    padding-bottom:50px;
+    background:#FFF;
+}
+
+.wrapper{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.wrapper:before, .wrapper:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.wrapper:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+#preloder{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:49%;
+    z-index:10;
+}
+.error{
+  font-family: 'Cuprum', sans-serif;
+  color: red;
+  font-size:12px;
+}
